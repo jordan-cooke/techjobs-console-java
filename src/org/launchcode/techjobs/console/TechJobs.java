@@ -114,11 +114,11 @@ public class TechJobs {
             System.out.println("Nothing found. Please try again.");
         }
         for (HashMap<String, String> job : someJobs) {
-            System.out.println("*****");
+            System.out.println("\n*****");
             for (String data : job.keySet()) {
                 System.out.println(data + " : " + job.get(data));
             }
-            System.out.println("*****\n");
+            System.out.println("*****");
         }
     }
 }
